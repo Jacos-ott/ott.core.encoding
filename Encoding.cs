@@ -6,7 +6,7 @@ namespace ott.core.encoding
     {
         public async Task<byte[]> Encrypt(string plainText)
         {
-            byte[] key = new byte[64];
+            byte[] key = new byte[32];
             byte[] iv = new byte[16];
 
             using (Aes aesAlg = Aes.Create())
@@ -32,7 +32,7 @@ namespace ott.core.encoding
 
         public async Task<string> Decrypt(byte[] cipherText)
         {
-            byte[] key = new byte[64];
+            byte[] key = new byte[32];
             byte[] iv = new byte[16];
 
             using (Aes aesAlg = Aes.Create())
