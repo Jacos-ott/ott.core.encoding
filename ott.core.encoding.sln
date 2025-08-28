@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ott.core.encoding", "ott.core.encoding.csproj", "{7AC0C8B1-1E66-4B24-A8A4-69614F6F811B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7AC0C8B1-1E66-4B24-A8A4-69614F6F811B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AC0C8B1-1E66-4B24-A8A4-69614F6F811B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AC0C8B1-1E66-4B24-A8A4-69614F6F811B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AC0C8B1-1E66-4B24-A8A4-69614F6F811B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {757C4704-5CE0-42AC-99F0-3CD2698D29EF}
+	EndGlobalSection
+EndGlobal
